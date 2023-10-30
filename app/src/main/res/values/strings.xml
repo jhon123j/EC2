@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FloresRojasEC2</string>
+    <string name="valMenu">Menu principal\n</string>
+    <string name="valRegisrto">Registro</string>
+    <string name="valFormulario">Formulario</string>
+    <string name="valListado">Listado\n</string>
+    <string name="vallistado">Listado</string>
+    <string name="valtit">Cuestionario</string>
+    <string name="val1">1. Marque sus habilidades</string>
+    <string name="valAutoconocimiento">Autoconocimiento</string>
+    <string name="valEmpatia">Empatia</string>
+    <string name="valComunicacionA">Comunicacion Asertiva</string>
+    <string name="valToma">Toma de decisiones</string>
+    <string name="valPensamiento">Pensamiento critico</string>
+    <string name="valNinungo">Ninguno</string>
+    <string name="val2">2. ¿Cuán significativo es tu trabajo?</string>
+    <string name="valMuchjo">Mucho</string>
+    <string name="valMaso">Mas o menos</string>
+    <string name="valPoco">Poco</string>
+    <string name="val3">3. ¿Qué tan bien te pagan en el trabajo que haces?</string>
+    <string name="valBien">Bien</string>
+    <string name="valRegular">Regular</string>
+    <string name="valMal">Mal</string>
+    <string name="val4">4. ¿Trabajas bajo presión?</string>
+    <string name="valSi">Si</string>
+    <string name="valNo">No</string>
+    <string name="val5">5 . ¿Tienes oportunidad de crecimiento en tu trabajo?</string>
+    <string name="valResolver">Resolver</string>
+</resources>

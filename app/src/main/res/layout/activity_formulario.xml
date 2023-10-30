@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <CheckBox
+            android:id="@+id/cbAutoconocimiento"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/valAutoconocimiento" />
+
+        <CheckBox
+            android:id="@+id/cbEmpatia"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/valEmpatia" />
+
+        <CheckBox
+            android:id="@+id/cbComunicacionA"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/valComunicacionA" />
+
+        <CheckBox
+            android:id="@+id/cbToma"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="@string/valToma" />
+
+        <CheckBox
+            android:id="@+id/cbPensamiento"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/valPensamiento" />
+
+        <CheckBox
+            android:id="@+id/cbNinguno"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/valNinungo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/valtit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/val1"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="32dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="29dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/val2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/rbMucho"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valMuchjo" />
+
+        <RadioButton
+            android:id="@+id/rbMaso"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valMaso" />
+
+        <RadioButton
+            android:id="@+id/rbPoco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valPoco" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/val3"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <RadioButton
+            android:id="@+id/rbBien"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valBien" />
+
+        <RadioButton
+            android:id="@+id/rbRegular"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valRegular" />
+
+        <RadioButton
+            android:id="@+id/rbMal"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valMal" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/val4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <RadioButton
+            android:id="@+id/rbSi"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valSi" />
+
+        <RadioButton
+            android:id="@+id/rbNo"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valNo" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/val5"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <RadioButton
+            android:id="@+id/rbSii"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valSi" />
+
+        <RadioButton
+            android:id="@+id/rbNoo"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valNo" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btResolver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/valResolver"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
